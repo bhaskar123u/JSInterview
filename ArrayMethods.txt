@@ -1,0 +1,75 @@
+1. map()
+Purpose: Transforms each element in the array and returns a new array of the transformed elements.
+Syntax: array.map(callback(currentValue, index, array))
+
+2. filter()
+Purpose: Filters the array based on a condition, returning a new array with only the elements that pass the test.
+Syntax: array.filter(callback(currentValue, index, array))
+
+3. reduce()
+Purpose: Reduces the array to a single value by applying a function (accumulating the result).
+Syntax: array.reduce(callback(accumulator, currentValue, index, array), initialValue)
+
+4. find()
+Purpose: Returns the first element that satisfies the provided condition. If no element is found, undefined is returned.
+Syntax: array.find(callback(currentValue, index, array))
+
+5. findIndex()
+Purpose: Returns the index of the first element that satisfies the condition. If no element is found, -1 is returned.
+Syntax: array.findIndex(callback(currentValue, index, array))
+
+6. flatMap()
+Purpose: Combines map() and flatten in one step. First, it maps each element to a new array, and then it flattens the result into a single array.
+Syntax: array.flatMap(callback(currentValue, index, array))
+
+7. sort()
+Purpose: Sorts the elements of an array in place.
+Syntax: array.sort(compareFunction)
+
+8. every()
+Purpose: Tests whether all elements in the array pass the provided condition.
+Syntax: array.every(callback(currentValue, index, array))
+
+9. some()
+Purpose: Tests whether at least one element in the array passes the provided condition.
+Syntax: array.some(callback(currentValue, index, array))
+
+10. includes()
+Purpose: Checks if a specific element exists in the array.
+Syntax: array.includes(valueToFind, fromIndex)
+
+11. slice()
+Purpose: Creates a shallow copy of a portion of an array.
+Syntax: array.slice(begin, end)
+
+12. splice()
+Purpose: Adds/removes elements from the array at a specified index.
+Syntax: array.splice(start, deleteCount, item1, item2, ...)
+
+13. concat()
+Purpose: Merges two or more arrays into one.
+Syntax: array.concat(value1, value2, ...)
+
+14. join()
+Purpose: Combines all elements of an array into a string.
+Syntax: array.join(separator)
+
+15. reduceRight()
+Purpose: Similar to reduce(), but applies the callback function from right to left.
+Syntax: array.reduceRight(callback(accumulator, currentValue, index, array), initialValue)
+
+16. forEach()
+Purpose: Executes a provided function once for each element in the array.
+Syntax: array.forEach(callback(currentValue, index, array))
+
+17. reverse()
+Purpose: Reverses the order of elements in the array in place.
+Syntax: array.reverse()
+
+18. sort()
+Purpose: Sorts the elements of an array in place based on the provided comparison function.
+Syntax: array.sort(compareFunction)
+
+19. flat()
+Purpose: Flattens a nested array into a single array.
+Syntax: array.flat(depth)
